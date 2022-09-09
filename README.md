@@ -1,12 +1,13 @@
 # Spring Boot WebService Soap Consumer   
 
-  ### this program conver json to soap   
+  ## this program convert json to soap   
   automatically send marshalled data to   
   ``` https://www.dataaccess.com/webservicesserver/NumberConversion.wso```   
   and receive response soap data.   
-  It return unmarshalled json data.   
+  ### It return unmarshalled json data.   
    
    
+
 ## this project configured by...
 > Maven Project   
 > java: 11   
@@ -14,8 +15,8 @@
 > Packaging: Jar   
 > Dependencies: Spring Web Service   
    
-
-
+   
+   
 - end point   
   - /consumer/number-to-words 
     - request  
@@ -40,6 +41,7 @@
     {
       "numberToWordsResult": "five hundred "
     }
+    ```
 
   - /consumer/number-to-dollars   
     - request
@@ -66,7 +68,7 @@
     }
     ```
 
-#### refs   
+#### refs...   
   youtube: <https://www.youtube.com/watch?v=WJg3NUwq6zU>   
   api: <https://documenter.getpostman.com/view/8854915/Szf26WHn>   
   wsdl: <https://www.dataaccess.com/webservicesserver/numberconversion.wso?WSDL>   
