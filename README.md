@@ -12,13 +12,13 @@
     ```   
     {   
       "ubiNum": "500"   
-    }   
+    }
    
   - /consumer/number-to-dollars   
     ```   
     {   
       "dNum": "3"   
-    }    
+    }
    
 ### refs   
   youtube: <https://www.youtube.com/watch?v=WJg3NUwq6zU>   
