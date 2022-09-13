@@ -1,5 +1,7 @@
 package com.consumer.service;
 
+import java.io.Console;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +17,7 @@ public class ConsumerService {
   @Autowired
   SoapConnector soapConnector;
 
-  public final String URI = "https://www.dataaccess.com/webservicesserver/NumberConversion.wso";
+  public final String URI = "http://localhost:3000/ws/numberConversion";
 
   public NumberToWordsResponse getWords(NumberToWords form) {
     NumberToWordsResponse response = 

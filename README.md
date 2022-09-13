@@ -2,7 +2,8 @@
 
   ### this program convert json to soap   
   automatically send marshalled data to   
-  ``` https://www.dataaccess.com/webservicesserver/NumberConversion.wso```   
+  ```http://localhost:3000/ws/numberConversion```   
+  > it can be downloaded by <https://github.com/gzeromin/spring-boot-soap-producing>
   and receive response soap data.   
   #### It return unmarshalled json data.   
    
@@ -39,7 +40,7 @@
     - response
     ```   
     {
-      "numberToWordsResult": "five hundred "
+      "numberToWordsResult": "500를 한글로 바꾸고 싶었지만 그건 다음에."
     }
     ```
 
@@ -64,7 +65,7 @@
     - response
     ```   
     {
-      "numberToDollarsResult": "three dollars"
+      "numberToDollarsResult": "I wanted to convert 3 to dollar string but maybe next time."
     }
     ```
 
